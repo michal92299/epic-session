@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Background?>
+<?import javafx.scene.layout.BackgroundFill?>
+<?import javafx.scene.layout.CornerRadii?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.epic.MainController"
+      padding="20" spacing="10"
+      style="-fx-background-color: black;">
+
+    <Label fx:id="titleLabel" text="Epic Games Launcher" style="-fx-text-fill: white; -fx-font-size: 24px;" />
+
+    <JFXButton fx:id="loginBtn" text="Login" style="-fx-background-color: #2196F3; -fx-text-fill: white;" />
+
+    <JFXTextField fx:id="searchField" promptText="Search Games" style="-fx-text-fill: white; -fx-prompt-text-fill: gray;" />
+
+    <JFXButton fx:id="refreshGamesBtn" text="Refresh Games" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" />
+
+    <JFXListView fx:id="gameListView" style="-fx-background-color: #333; -fx-text-fill: white;" />
+
+    <JFXTextField fx:id="installField" promptText="App Name to Install" style="-fx-text-fill: white; -fx-prompt-text-fill: gray;" />
+
+    <JFXButton fx:id="installBtn" text="Install" style="-fx-background-color: #FFC107; -fx-text-fill: white;" />
+
+    <JFXButton fx:id="uninstallBtn" text="Uninstall Selected" style="-fx-background-color: #F44336; -fx-text-fill: white;" />
+
+    <JFXButton fx:id="refreshProtonsBtn" text="Refresh Protons" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" />
+
+    <JFXComboBox fx:id="protonCombo" style="-fx-background-color: #333; -fx-text-fill: white;" />
+
+    <JFXTextField fx:id="protonVersionField" promptText="Proton-GE Version (e.g. GE-Proton8-25)" style="-fx-text-fill: white; -fx-prompt-text-fill: gray;" />
+
+    <JFXButton fx:id="installProtonBtn" text="Install Proton" style="-fx-background-color: #FFC107; -fx-text-fill: white;" />
+
+    <JFXButton fx:id="launchBtn" text="Launch Selected Game" style="-fx-background-color: #F44336; -fx-text-fill: white;" />
+
+    <JFXProgressBar fx:id="progressBar" visible="false" />
+
+    <JFXTextField fx:id="customProtonDirField" promptText="Custom Proton Dir" style="-fx-text-fill: white; -fx-prompt-text-fill: gray;" />
+
+    <JFXButton fx:id="saveSettingsBtn" text="Save Settings" style="-fx-background-color: #2196F3; -fx-text-fill: white;" />
+
+    <JFXButton fx:id="checkStatusBtn" text="Check Backend Status" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" />
+
+</VBox>
