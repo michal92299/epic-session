@@ -1,1 +1,1 @@
-# gamescope-session-epic
+# Epic Session
