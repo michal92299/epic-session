@@ -1,1 +1,5 @@
-
+[Desktop Entry]
+Name=Epic Session
+Comment=Gamescope Session for Epic Games
+Exec=/usr/lib/epic-session/epic-session-session
+Type=Application
