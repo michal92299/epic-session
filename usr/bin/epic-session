@@ -1,1 +1,9 @@
+#!/bin/bash
+# /usr/lib/epic-session/epic-session-session
 
+# Uruchom backend
+/usr/lib/epic-session/epic-session &
+
+# Uruchom frontend w Gamescope
+gamescope -f -e -- \
+    /usr/lib/epic-session/epic-session-frontend
